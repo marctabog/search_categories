@@ -109,4 +109,4 @@ def redirect_to_homepage(request):
 if __name__ == "__main__":
     if "serve" in sys.argv:
         port = int(os.environ.get("PORT", 8008)) 
-        uvicorn.run(app, host = "127.0.0.1", port = port)
+        uvicorn.run(app, host = "0.0.0.0", port = port)
