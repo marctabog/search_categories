@@ -6,7 +6,7 @@ RUN apt install -y python3-dev gcc
 ADD requirements.txt requirements.txt
 ADD dico_general.pickle dico_general.pickle
 ADD dico.pickle dico.pickle
-ADD embedding.pickle embedding.pickle
+ADD embeddings.pickle embeddings.pickle
 ADD data_model.csv data_model.csv
 ADD app.py app.py
 
